@@ -61,92 +61,16 @@ nav a {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-    color: white;
+    color: white; 
 }
 
 .titulo {
     display: flex;
     color: white;
     justify-content: center;
-}
-.Linhainfo{
-    border-top: 1px solid rgb(50, 50, 70);
-}
-
-.Linhainfo,
-.Linhadados {
-    padding: 0px 30px 0px 30px;
-    align-items: center;
-    display: grid;
-    grid-template-columns: 50px 300px 1fr 120px 100px;
     border-bottom: 1px solid rgb(50, 50, 70);
-    color: white;
-    font-weight: bold;
 }
 
-.info {
-    padding: 15px 0px;
-    text-align: center;
-}
-
-.Linhadados {
-    background-color: rgb(28, 28, 45);
-    color: white;
-}
-
-.Linhadados:hover {
-    background-color: rgb(35, 35, 58);
-    transition: 0.2s;
-}
-
-/* --- ESTILOS VISUAIS EXTRAS --- */
-.status {
-    padding: 5px 10px;
-    border-radius: 20px;
-    font-size: 12px;
-    font-weight: bold;
-}
-
-.aberto {
-    background-color: #ff4d4d;
-    color: black;
-}
-
-.andamento {
-    background-color: #ffcc00;
-    color: black;
-}
-
-.fechado {
-    background-color: #36f860;
-    color: black;
-}
-
-.editar,
-.excluir {
-    border: none;
-    padding: 6px 12px;
-    border-radius: 4px;
-    cursor: pointer;
-    color: black;
-    margin-right: 5px;
-}
-
-.editar {
-    background-color: #4da6ff;
-}
-
-.excluir {
-    background-color: #ff4d4d;
-}
-
-.editar:hover {
-    background-color: #3678b9;
-}
-
-.excluir:hover {
-    background-color: #b43636;
-}
 
 footer {
     background-color: rgb(17, 17, 29);

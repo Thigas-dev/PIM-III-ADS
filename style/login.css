@@ -29,12 +29,6 @@ nav li {
     font-family: 'Logo';
 }
 
-nav a {
-    text-decoration: none;
-    color: white;
-    font-family: 'Redonda';
-}
-
 .Logo {
     display: flex;
     align-items: center;
@@ -54,79 +48,29 @@ nav a {
     gap: 20px;
 }
 
-/* --- CONTEINER PARA CENTRALIZAR --- */
-.login-container {
-    /* 100vh é 100% da altura da tela. Tiramos 70px do menu para não dar barra de rolagem */
-    min-height: calc(100vh - 70px);
+.Flex {
+    min-height: calc(70vh);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-/* --- O QUADRADO DO LOGIN --- */
-.login-box {
-    background-color: rgb(28, 28, 45);
-    /* Um pouco mais claro que o fundo principal */
-    width: 100%;
-    max-width: 350px;
-    padding: 40px;
-    border-radius: 10px;
-    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.4);
-    /* Uma sombrinha para destacar */
-}
-
-.login-box h2 {
-    margin-top: 0;
-    margin-bottom: 25px;
-    text-align: center;
-    font-size: 24px;
-}
-
-/* --- INPUTS E LABELS --- */
-.input-group {
+.LoginB {
     display: flex;
     flex-direction: column;
-    margin-bottom: 20px;
+    color: #fff;
+    background-color: rgba(59, 59, 94, 0.76);
+    border: rgb(86, 86, 121) 1px solid;
+    width: 300px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+.LoginB a {
+    text-decoration: none;
+    color: #fff;
 }
 
-.input-group label {
-    margin-bottom: 5px;
-    font-size: 14px;
-    color: #ccc;
-}
-
-.input-group input {
-    background-color: rgb(17, 17, 29);
-    border: 1px solid rgb(50, 50, 70);
-    color: white;
-    padding: 12px;
-    border-radius: 5px;
-    outline: none;
-    font-size: 16px;
-}
-
-/* Muda a borda quando o usuário clica para digitar */
-.input-group input:focus {
-    border-color: #8a2be2;
-    /* Um tom de roxo para combinar com a sua logo */
-}
-
-/* --- BOTÃO --- */
-.btn-login {
-    width: 100%;
-    background-color: #8a2be2;
-    /* Roxo principal */
-    color: white;
-    border: none;
-    padding: 12px;
-    border-radius: 5px;
-    font-size: 16px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-.btn-login:hover {
-    background-color: #6a1b9a;
-    /* Roxo mais escuro ao passar o mouse */
+.LoginB a:hover{
+    color: #979797;
 }
