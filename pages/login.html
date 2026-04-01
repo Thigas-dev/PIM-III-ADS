@@ -19,6 +19,9 @@
     <link rel="manifest" href="/img/icon/site.webmanifest">
 
     <link rel="stylesheet" href="/style/login.css">
+    <style>
+        
+    </style>
 </head>
 
 <body>
@@ -30,17 +33,27 @@
             </a>
         </nav>
     </header>
-</body>
-<div class="Flex">
-    <div class="LoginB">
-        <h2>LOGIN</h2>
-        <input type="text">
-        <input type="text">
-        <a href="#">Não tenho login</a>
 
-        <button>Entrar</button>
+    <div class="Flex">
+        <div class="LoginB">
+            <h2>LOGIN</h2>
+            <div class="Login">
+                <label>Usuário:</label>
+                <input type="text" placeholder="Seu usuário" required>
+            </div>
+
+            <div class="Login">
+                <label>Senha:</label>
+                <input type="password" placeholder="Sua senha" required>
+            </div>
+
+            <a href="#">Não tenho login</a>
+
+            <button>Entrar</button>
+
+        </div>
     </div>
-</div>
+</body>
 
 
 </html>

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@431&display=swap');
+
 @font-face {
     font-family: Redonda;
     src: url(../font/Durobang.otf) format('truetype');
@@ -59,18 +61,59 @@ nav li {
     display: flex;
     flex-direction: column;
     color: #fff;
-    background-color: rgba(59, 59, 94, 0.76);
+    background-color: rgba(39, 39, 63, 0.76);
     border: rgb(86, 86, 121) 1px solid;
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 330px;
+    border-radius: 10px;
     justify-content: center;
     align-items: center;
 }
+
 .LoginB a {
     text-decoration: none;
     color: #fff;
+    padding-bottom: 10px;
 }
 
-.LoginB a:hover{
+.LoginB a:hover {
     color: #979797;
+}
+
+.LoginB h2,label {
+    font-family: 'Oswald', sans-serif;
+}
+
+.Login {
+    display: flex;
+    flex-direction: column;
+    /* Coloca o Label em cima e o Input embaixo */
+    width: 80%;
+    margin-bottom: 15px;
+    /* Dá um espaço entre o campo de Usuário e o de Senha */
+}
+
+.Login label {
+    margin-bottom: 5px;
+}
+
+.Login input {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(17, 17, 29);
+    color: white;
+}
+
+button {
+    background-color: rgb(79, 79, 128);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(59, 59, 83);
 }
