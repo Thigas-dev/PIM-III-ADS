@@ -105,6 +105,12 @@ nav li {
     color: white;
 }
 
+.Criar {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
 button {
     background-color: rgb(79, 79, 128);
     color: #fff;
