@@ -133,7 +133,7 @@ nav a {
 }
 
 .editar {
-    background-color: #4da6ff;
+    background-color: rgb(223, 223, 223);
 }
 
 .excluir {
@@ -141,7 +141,7 @@ nav a {
 }
 
 .editar:hover {
-    background-color: #3678b9;
+    background-color: rgb(141, 141, 141);
 }
 
 .excluir:hover {

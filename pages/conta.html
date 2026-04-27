@@ -44,10 +44,50 @@
             </ul>
         </nav>
     </header>
-    <Div class="titulo">
+    <div class="titulo">
         <h1>Minha Conta</h1>
-    </Div>
-    <div class="painel">
+    </div>
+
+    <div class="painel" style="flex-direction: row; justify-content: center; gap: 40px; padding: 20px;">
+
+        <div class="LoginB" style="width: 350px;">
+            <h2>Meus Dados</h2>
+            <form action="#">
+                <div class="Login">
+                    <label>Nome Completo:</label>
+                    <input type="text" value="Thiago Araujo Silva" required>
+                </div>
+
+                <div class="Login">
+                    <label>Setor:</label>
+                    <input type="text" value="Infraestrutura / TI" readonly style="background-color: #2a2a40;">
+                </div>
+
+                <div class="Login">
+                    <label>E-mail:</label>
+                    <input type="email" value="thiago@empresa.com" required>
+                </div>
+
+                <button type="submit" class="btn-editar">Salvar Dados</button>
+            </form>
+        </div>
+
+        <div class="LoginB" style="width: 350px;">
+            <h2>Segurança</h2>
+            <form action="#">
+                <div class="Login">
+                    <label>Senha Atual:</label>
+                    <input type="password" placeholder="Digite a senha atual" required>
+                </div>
+
+                <div class="Login">
+                    <label>Nova Senha:</label>
+                    <input type="password" placeholder="Digite a nova senha" required>
+                </div>
+
+                <button type="submit" class="btn-excluir">Alterar Senha</button>
+            </form>
+        </div>
 
     </div>
 
